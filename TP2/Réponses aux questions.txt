@@ -1,0 +1,32 @@
++----------+
+|Exercice 1|
++----------+
+
+1. Il y a une clé privée et une clé publique.
+
+2. La taille de chaque nombre premier p et q doit être la moitié de la taille de la clé demandée.
+
+4. Le e doit être premier avec phi_n et strictement inférieur à phi_n.
+
+6. Le d est l'inverse de e modulo phi_n et doit être strictement inférieur à phi_n.
+
+
++----------+
+|Exercice 2|
++----------+
+
+1.a. Bob doit utiliser la clef publique pour chiffrer un message à destination de Alice.
+
+1.b. Alice doit utiliser la clef privée pour déchiffrer un message qui lui est addressé.
+
+
++----------+
+|Exercice 3|
++----------+
+
+1.a Bob doit utiliser la clef privée pour signer un message.
+
+1.b Alice doit utiliser la clef publique pour vérifier l’authenticité du message qui prétend être signé par Bob.
+
+2. Pour assurer l'authencité d'un message, il faut que l'émetteur peut chiffrer un condensé de son message avec sa clé privée d'émetteur : s = H(m) ^ d % n.
+Le message signé est alors (m, s).

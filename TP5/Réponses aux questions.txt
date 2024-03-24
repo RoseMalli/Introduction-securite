@@ -1,0 +1,11 @@
++------------+
+| Exercice 1 |
++------------+
+
+2. dp = d mod (p - 1),
+   dq = d mod (q - 1),
+   iq = q ^ -1 mod p
+   (N, e) est la clé publique
+   Pour cette optimisation la clé privée se change : (p, q, dp, dq, iq).
+
+6. En remplaçant l'exponentiation modulaire par deux exponentiations modulaires, avec des exposants deux fois plus petits, fait gagner l'optimisation CRT.

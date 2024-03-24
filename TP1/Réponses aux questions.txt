@@ -1,0 +1,9 @@
++----------+
+|Exercice 3|
++----------+
+
+1. On peut constater que, après chaque compilation avec la même clé, le chiffré du fichier test.txt ne change pas. 
+
+2. On peut déchiffrer le chiffré du fichier test.txt avec toutes les clé possibles.
+
+4. Cette méthode rend le déchiffrement plus difficile parce que, après chaque compilation avec la même clé, le chiffré du fichier test.txt change et devient unique.

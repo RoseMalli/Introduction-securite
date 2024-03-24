@@ -1,0 +1,17 @@
+Exercice 1
+
+1. m = 42c0ffee93 en décimal m = 286705839763
+   N = 02c99a781f en décimal N = 11972278303
+   s = 02306bf1b7 en décimal s = 9402315191
+   
+2. Le mot "modexp" signifie exponentiation modulaire : s = m ^ d % N
+
+4. Dans la trace, il y a des intervalles où la consommation de la signature est importante.
+
+5. D'après la trace, d = 111101000101010110110011000001 en décimal d = 1024814273
+Données : m = 286705839763; d = 1024814273; N = 11972278303; s = 9402315191
+Question :  m ^ d % N = s ?
+Vérification : m ^ d % N
+	       286705839763 ^ 1024814273 % 11972278303 = 9402315191
+Donc : s = m ^ d % N
+Alors : d = 1024814273
